@@ -7,6 +7,7 @@ interface MovieCardProps {
   poster: string;
   rating: string;
   runtime: string;
+  // link?: string;
 }
 
 export function MovieCard(props: MovieCardProps) {
